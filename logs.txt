@@ -1,0 +1,114 @@
+PS C:\backs\teste> python .\crud_alunos.py
+
+Menu de Opções
+1. Cadastrar Aluno
+2. Listar Alunos
+3. Atualizar Aluno
+4. Remover Aluno
+5. Sair
+Escolha uma opção: 1
+
+=== Cadastrar Aluno ===
+Nome: Luís
+E-mail: luis@email.com
+Curso (ex.: 'Engenharia de Software - GES' ou 'GES'): GES
+Aluno cadastrado com sucesso! Matrícula: GES1
+
+Pressione ENTER para continuar...
+
+Menu de Opções
+1. Cadastrar Aluno
+2. Listar Alunos
+3. Atualizar Aluno
+4. Remover Aluno
+5. Sair
+Escolha uma opção: 1
+
+=== Cadastrar Aluno ===
+Nome: Ana
+E-mail: ana@gmail.com
+Curso (ex.: 'Engenharia de Software - GES' ou 'GES'): GES
+Aluno cadastrado com sucesso! Matrícula: GES2
+
+Pressione ENTER para continuar...
+
+Menu de Opções
+1. Cadastrar Aluno
+2. Listar Alunos
+3. Atualizar Aluno
+4. Remover Aluno
+5. Sair
+Escolha uma opção: 1
+
+=== Cadastrar Aluno ===
+Nome: Debora
+E-mail: deb@gmail.com
+Curso (ex.: 'Engenharia de Software - GES' ou 'GES'): GES
+Aluno cadastrado com sucesso! Matrícula: GES3
+
+Pressione ENTER para continuar...
+
+Menu de Opções
+1. Cadastrar Aluno
+2. Listar Alunos
+3. Atualizar Aluno
+4. Remover Aluno
+5. Sair
+Escolha uma opção: 2
+
+=== Lista de Alunos ===
+Matr.    | Nome                      | E-mail                         | Curso
+-------------------------------------------------------------------------------------
+GES1     | Luís                      | luis@email.com                 | GES
+GES2     | Ana                       | ana@gmail.com                  | GES
+GES3     | Debora                    | deb@gmail.com                  | GES
+
+Pressione ENTER para continuar...
+
+Menu de Opções
+1. Cadastrar Aluno
+2. Listar Alunos
+3. Atualizar Aluno
+4. Remover Aluno
+5. Sair
+Escolha uma opção: 3
+
+=== Atualizar Aluno ===
+Informe a matrícula OU e-mail do aluno: GES1
+Deixe em branco para manter o valor atual.
+Novo nome [Luís]: Luís Ed
+Novo e-mail [luis@email.com]: luised@email.com
+Novo curso [GES]: GES
+Aluno atualizado com sucesso!
+
+Pressione ENTER para continuar...
+
+Menu de Opções
+1. Cadastrar Aluno
+2. Listar Alunos
+3. Atualizar Aluno
+4. Remover Aluno
+5. Sair
+Escolha uma opção: 4
+
+=== Remover Aluno ===
+Informe a matrícula OU e-mail do aluno a remover: GES2
+Aluno removido com sucesso!
+
+Pressione ENTER para continuar...
+
+Menu de Opções
+1. Cadastrar Aluno
+2. Listar Alunos
+3. Atualizar Aluno
+4. Remover Aluno
+5. Sair
+Escolha uma opção: 2
+
+=== Lista de Alunos ===
+Matr.    | Nome                      | E-mail                         | Curso
+-------------------------------------------------------------------------------------
+GES1     | Luís Ed                   | luised@email.com               | GES
+GES3     | Debora                    | deb@gmail.com                  | GES
+
+Pressione ENTER para continuar...
