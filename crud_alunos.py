@@ -12,13 +12,6 @@ def remover_acentos(txt: str) -> str:
     return unicodedata.normalize("NFKD", txt).encode("ASCII", "ignore").decode()
 
 def extrair_abreviacao(curso: str) -> str:
-    """
-    Tenta extrair uma abreviação do curso a partir do texto informado.
-    Regras:
-    - Se houver '-', pega o trecho final e, se for só letras (2-6), usa como abreviação (ex: "Engenharia - GES").
-    - Se o texto completo já for algo como "GES" (2-6 letras), usa diretamente.
-    - Caso contrário, remove acentos, mantém apenas letras e pega as 3 primeiras (fallback).
-    """
     if not curso:
         return "CUR"
     curso_up = curso.strip().upper()
